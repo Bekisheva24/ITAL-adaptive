@@ -1,0 +1,141 @@
+@import "vars";
+
+.footer {
+  &__body {
+    background-color: #202020;
+  }
+  &__inner {
+    padding: 140px 0 48px;
+  }
+  &__catalog {
+    margin-bottom: 50px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+  }
+  // -----footer-logo-----------------------
+  &__logo {
+    max-width: 280px;
+  }
+  &__logo-img {
+    width: 100%;
+  }
+  // --------------------------------------
+  &__title {
+    margin: 0 0 20px 0;
+    font-family: $main-font;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    color: $white;
+    transition: all 0.3s;
+  }
+
+  &__list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  &__item:not(:last-child) {
+    margin-bottom: 10px;
+  }
+
+  &__link {
+    font-family: $main-font;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    color: $white;
+    text-decoration: none;
+    transition: all 0.3s;
+  }
+  &__link:hover {
+    color: $white;
+    border-bottom: 1px solid $accent;
+  }
+  // --footer-info---------------------
+
+  &__title-info {
+    margin: 0 0 20px 0;
+    font-family: $main-font;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    color: $white;
+  }
+  &__info-line {
+    position: relative;
+    max-width: 1160px;
+    border: 1px solid $accent;
+    display: none;
+  }
+
+  // ----footer-contact---------------
+  &__item-contact {
+    a {
+      display: inline-block;
+      padding-left: 8px;
+    }
+  }
+  // -----------------------------------
+
+  // ----footer-media------------------
+  &__media-list {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    list-style: none;
+  }
+  &__media-item:not(:last-child) {
+    margin-right: 25px;
+  }
+
+  &__media-item {
+    list-style: none;
+    transition: all 0.3s;
+  }
+
+  &__media-item:hover {
+    background-color: $accent;
+  }
+
+  &__media-link {
+    display: inline-block;
+    padding: 13px;
+    border: 1px solid $accent;
+  }
+
+  // ------footer-line--------------------
+  &__line {
+    max-width: 1160px;
+    border: 1px solid $accent;
+  }
+
+  //   --------footer-txt-------------------
+
+  &__txt {
+    padding: 50px 0 48px;
+    display: flex;
+    justify-content: space-between;
+    a {
+      font-family: $main-font;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 22px;
+      color: $white;
+    }
+    p {
+      margin: 0;
+    }
+  }
+  &__txt-link:hover {
+    color: $accent;
+  }
+}
+
+// ---------------------------------
