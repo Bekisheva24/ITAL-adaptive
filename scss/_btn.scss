@@ -1,0 +1,14 @@
+@import "vars";
+
+.btn {
+ 
+  font-family: $main-font;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 25px;
+  text-align: center;
+  color: $white;
+  border-radius: 0;
+  background-color: $accent;
+}
