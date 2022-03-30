@@ -5,6 +5,272 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>ITAL</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.min.css" />
   </head>
-  <body></body>
+
+  <body>
+    <header class="header">
+      <nav class="navbar navbar-expand-lg header__nav">
+        <div class="container">
+          <a class="navbar-brand header__logo" href="#">
+            <img
+              class="header__logo-img"
+              src="image/logo_white.svg"
+              alt="logo"
+            />
+          </a>
+          <button
+            class="navbar-toggler header__nav-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto header__menu">
+              <li class="nav-item header__menu-item">
+                <a
+                  class="nav-link active header__menu-link"
+                  aria-current="page"
+                  href="#"
+                  >Наши проекты</a
+                >
+              </li>
+              <li class="nav-item header__menu-item">
+                <a class="nav-link header__menu-link" href="#">Медиа</a>
+              </li>
+              <li class="nav-item header__menu-item">
+                <a class="nav-link header__menu-link" href="#">О нас</a>
+              </li>
+              <li class="nav-item header__menu-item">
+                <a class="nav-link header__menu-link" href="#">Контакты</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <div class="banner">
+        <div class="banner__cover">
+          <div class="container">
+            <div class="banner__body">
+              <div class="row align-items-center">
+                <div class="col-12 col-lg-8 col-xl-9">
+                  <h1 class="banner__body-title">
+                    Проектирование элитной недвижимости «под ключ»
+                  </h1>
+                </div>
+                <div class="col-12 col-lg-4 col-xl-3">
+                  <div class="banner__desc">
+                    <p class="banner__desc-txt">
+                      Запишитесь на бесплатную онлайн консультацию
+                    </p>
+                    <button class="banner__desc-btn btn" type="submit">
+                      Записаться
+                    </button>
+                  </div>
+                </div>
+
+                <div class="banner__slidebar">
+                  <div class="banner__slidebar-circle active"></div>
+                  <div class="banner__slidebar-circle"></div>
+                  <div class="banner__slidebar-circle"></div>
+                  <div class="banner__slidebar-circle"></div>
+                  <div class="banner__slidebar-circle"></div>
+                  <div class="banner__slidebar-circle"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <section class="service">
+        <div class="container">
+          <h2 class="service__title section-title">Наши услуги</h2>
+          <div class="row">
+            <div class="col-12 col-md-4">
+              <div class="service__item service__item--1">
+                <p class="service__name">Загородный дом</p>
+              </div>
+            </div>
+            <div class="col-12 col-md-4">
+              <div class="service__item service__item--2">
+                <p class="service__name">Квартира</p>
+                <a class="service__link btn" href="#">Посмотреть</a>
+              </div>
+            </div>
+            <div class="col-12 col-md-4">
+              <div class="service__item service__item--3">
+                <p class="service__name">Нежилые помещения</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="pages">
+        <div class="container">
+          <h2 class="pages__title section-title">
+            Присоединяйтесь к нам<br />
+            в Instagram
+          </h2>
+          <div class="row">
+            <div class="col-6 col-md-4 col-lg-3">
+              <div class="pages__card"></div>
+            </div>
+            <div class="col-6 col-md-4 col-lg-3">
+              <div class="pages__card pages__card--1"></div>
+            </div>
+            <div class="col-6 col-md-4 col-lg-3">
+              <div class="pages__card pages__card--2"></div>
+            </div>
+            <div class="col-6 col-md-4 col-lg-3">
+              <div class="pages__card pages__card--3"></div>
+            </div>
+            <div class="col-6 col-md-4 col-lg-3">
+              <div class="pages__card pages__card--4"></div>
+            </div>
+            <div class="col-6 col-md-4 col-lg-3">
+              <div class="pages__card pages__card--5"></div>
+            </div>
+            <div class="col-6 col-md-4 col-lg-3">
+              <div class="pages__card pages__card--6"></div>
+            </div>
+            <div class="col-6 col-md-4 col-lg-3">
+              <div class="pages__card pages__card--7"></div>
+            </div>
+          </div>
+          <div class="pages__btn">
+            <a class="pages__btn-link btn" href="#">Присоединиться</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="footer__body">
+        <div class="container">
+          <div class="footer__inner">
+            <div class="footer__catalog">
+              <div class="footer__logo">
+                <a class="footer__logo-link" href="#">
+                  <img
+                    class="footer__logo-img"
+                    src="image/logo_white.svg"
+                    alt="logo"
+                  />
+                </a>
+              </div>
+              <div class="footer__info">
+                <div class="footer__info-line"></div>
+                <h4 class="footer__title-info">Информация</h4>
+                <div class="footer__info-line"></div>
+                <ul class="footer__list footer__list-info">
+                  <li class="footer__item">
+                    <a class="footer__link" href="#">Загородные дома</a>
+                  </li>
+                  <li class="footer__item">
+                    <a class="footer__link" href="#">Квартиры</a>
+                  </li>
+                  <li class="footer__item">
+                    <a class="footer__link" href="#">Нежилые помещения</a>
+                  </li>
+                  <li class="footer__item">
+                    <a class="footer__link" href="#">Медиафайлы</a>
+                  </li>
+                  <li class="footer__item">
+                    <a class="footer__link" href="#">О компании</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="footer__contact">
+                <h4 class="footer__title">Контакты</h4>
+                <ul class="footer__list">
+                  <li class="footer__item footer__item-contact">
+                    <img src="image/footer-tel.svg" alt="tel-icon" />
+                    <a class="footer__link" href="tel:+ 7 (499) 409-16-12"
+                      >+ 7 (499) 409-16-12</a
+                    >
+                  </li>
+                  <li class="footer__item footer__item-contact">
+                    <img src="image/footer-mail.svg" alt="mail-icon" />
+                    <a class="footer__link" href="mailto:italproekt@gmail.com"
+                      >italproekt@gmail.com</a
+                    >
+                  </li>
+                </ul>
+              </div>
+              <div class="footer__media footer__media-mobile">
+                <h4 class="footer__title">Соц. сети</h4>
+                <ul class="footer__media-list">
+                  <li class="footer__media-item active">
+                    <a href="#" class="footer__media-link">
+                      <img
+                        class="footer__media-img"
+                        src="image/facebook.svg"
+                        alt="icon"
+                      />
+                    </a>
+                  </li>
+                  <li class="footer__media-item">
+                    <a href="#" class="footer__media-link">
+                      <img
+                        class="footer__media-img"
+                        src="image/youtube.svg"
+                        alt="icon"
+                      />
+                    </a>
+                  </li>
+                  <li class="footer__media-item">
+                    <a href="#" class="footer__media-link">
+                      <img
+                        class="footer__media-img"
+                        src="image/pinterest.svg"
+                        alt="icon"
+                      />
+                    </a>
+                  </li>
+                  <li class="footer__media-item">
+                    <a href="#" class="footer__media-link">
+                      <img
+                        class="footer__media-img"
+                        src="image/instagram.svg"
+                        alt="icon"
+                      />
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="footer__line"></div>
+            <div class="footer__txt">
+              <p>
+                <a class="footer__txt-link" href="#"
+                  >Политика конфиденциальности</a
+                >
+              </p>
+              <p>
+                <a class="footer__txt-link" href="#">designed by Linar</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="js/bootstrap.bundle.min.js"></script>
+  </body>
 </html>
